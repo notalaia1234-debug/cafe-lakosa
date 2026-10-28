@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cafe Lakosa | Coffee & Culinary</title>
+  <title>Cafe Lakosa</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -19,59 +19,48 @@
     </nav>
   </header>
 
-  <main>
-    <section class="hero" id="beranda">
-      <h1>Welcome to Cafe Lakosa</h1>
-      <p>Tempat menikmati kopi dan makanan dalam suasana nyaman.</p>
-      <a href="#menu" class="btn">Lihat Menu</a>
-    </section>
+  <section class="hero" id="beranda">
+    <h1>Welcome to Cafe Lakosa</h1>
+    <p>Tempat menikmati kopi dan makanan bersama teman.</p>
+    <a href="#menu" class="btn">Lihat Menu</a>
+  </section>
 
-    <section class="about" id="tentang">
-      <h2>Tentang Kami</h2>
-      <p>
-        Cafe Lakosa merupakan usaha kuliner yang
-        memperkenalkan pilihan makanan dan minuman
-        kepada pelanggan melalui website ini.
-      </p>
-    </section>
+  <section id="tentang">
+    <h2>Tentang Kami</h2>
+    <p>Selamat datang di website Cafe Lakosa.</p>
+    <p>Temukan informasi menu dan suasana kafe kami di sini.</p>
+  </section>
 
-    <section id="menu">
-      <h2>Menu Kami</h2>
-      <div class="menu-list">
-        <div class="menu-card">
-          <div class="emoji">☕</div>
-          <h3>Kopi Susu</h3>
-          <p>Kopi susu yang nikmat.</p>
-          <p class="price">Rp18.000</p>
-        </div>
-
-        <div class="menu-card">
-          <div class="emoji">🧊</div>
-          <h3>Es Kopi</h3>
-          <p>Minuman kopi dingin.</p>
-          <p class="price">Rp15.000</p>
-        </div>
-
-        <div class="menu-card">
-          <div class="emoji">🍟</div>
-          <h3>Kentang Goreng</h3>
-          <p>Camilan teman bersantai.</p>
-          <p class="price">Rp15.000</p>
-        </div>
+  <section id="menu">
+    <h2>Menu Kami</h2>
+    <div class="menu-list">
+      <div class="menu-card">
+        <div class="emoji">☕</div>
+        <h3>Kopi Susu</h3>
+        <p>Rp18.000</p>
       </div>
-      <p>Harga di atas hanya contoh, bukan harga resmi.</p>
-    </section>
+      <div class="menu-card">
+        <div class="emoji">🧊</div>
+        <h3>Es Kopi</h3>
+        <p>Rp15.000</p>
+      </div>
+      <div class="menu-card">
+        <div class="emoji">🍟</div>
+        <h3>Kentang Goreng</h3>
+        <p>Rp15.000</p>
+      </div>
+    </div>
+    <p>Harga di atas hanya contoh untuk tugas.</p>
+  </section>
 
-    <section class="contact" id="kontak">
-      <h2>Hubungi Kami</h2>
-      <p>Alamat: tambahkan alamat resmi Cafe Lakosa.</p>
-      <p>Instagram: tambahkan akun resmi Cafe Lakosa.</p>
-    </section>
-  </main>
+  <section id="kontak" class="contact">
+    <h2>Kontak Cafe Lakosa</h2>
+    <p>Alamat: tambahkan alamat resmi kafe.</p>
+    <p>Instagram: tambahkan akun resmi kafe.</p>
+  </section>
 
   <footer>
     <p>&copy; 2026 Cafe Lakosa</p>
-    <p>Website UMKM dibuat dengan HTML dan CSS.</p>
   </footer>
 
 </body>
