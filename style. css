@@ -1,5 +1,4 @@
-
-/* RESET DAN PENGATURAN DASAR */
+/* PENGATURAN DASAR */
 * {
   margin: 0;
   padding: 0;
@@ -71,7 +70,6 @@ nav a:hover {
   padding: 12px 24px;
   border-radius: 25px;
   text-decoration: none;
-  transition: 0.3s;
 }
 
 .btn:hover {
@@ -95,7 +93,7 @@ section h2 {
   margin: auto;
 }
 
-/* DAFTAR MENU */
+/* MENU MAKANAN DAN MINUMAN */
 .menu-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
@@ -134,7 +132,7 @@ section h2 {
   background-color: #ead9c3;
 }
 
-/* FOOTER */
+/* BAGIAN BAWAH */
 footer {
   background-color: #3b261e;
   color: white;
